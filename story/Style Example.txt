@@ -1,31 +1,19 @@
-A fitting style for this program consists of many small lines that somewhat mimic a computer terminal. Somewhat like this:
-Booting from drive...
+Welcome to Storyteller!
+This program implements a few different styles such as 
+Typewriter printing (This is using that)
+A simple console-based design
+Custom story file format
+And more.
 >wait>2
-Loaded 5 items;
+Now, if you are like me, that last bit may have been hard to keep up with, but you may have noticed this line took a minute to show up.
 >wait>1
-a.txt
->wait>0.1
-b.txt
->wait>0.1
-c.txt
->wait>0.1
-d.txt
->wait>0.1
-e.txt
->wait>0.1
-Please select an item:
+That can be done through >wait> statements. Simply type out ">wait>" and then a number in seconds right after that, like so: >wait>1
 >wait>1
->step>b
->wait>0.21
->step>.
->wait>0.34
->step>t
->wait>0.17
->step>x
->wait>0.49
->step>t
+Just make sure to not include a period.
+>step>N
+>wait>0.5
+>step>O
+>wait>0.5
+>step>W
+>wait>0.5
 >break>
->wait>0.41
-Opening b.txt...
->wait>5
-And this is the stored data!
