@@ -1,0 +1,31 @@
+A fitting style for this program consists of many small lines that somewhat mimic a computer terminal. Somewhat like this:
+Booting from drive...
+>wait>2
+Loaded 5 items;
+>wait>1
+a.txt
+>wait>0.1
+b.txt
+>wait>0.1
+c.txt
+>wait>0.1
+d.txt
+>wait>0.1
+e.txt
+>wait>0.1
+Please select an item:
+>wait>1
+>step>b
+>wait>0.21
+>step>.
+>wait>0.34
+>step>t
+>wait>0.17
+>step>x
+>wait>0.49
+>step>t
+>break>
+>wait>0.41
+Opening b.txt...
+>wait>5
+And this is the stored data!
