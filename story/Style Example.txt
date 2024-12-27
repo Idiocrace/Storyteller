@@ -13,7 +13,16 @@ Just make sure to not include a period.
 >step>N
 >wait>0.5
 >step>O
->wait>0.5
+>wait>1
 >step>W
 >wait>0.5
 >break>
+You may be wondering how I spaced those letters out like that.
+To answer you, that is done through >step>, >wait>, and a >break statement>
+To use a step statement, simply type >step> and then type a letter right after that like so: >step>A
+And, to use a break statement, which just adds a newline, simply type >break> with nothing else, like so: >break>
+But then that begs the question, what am I using to type this? A >print> statement? A >write> statement. NO
+To type plain text, just type it out like normal.
+>break>
+And there you have it. The custom story format explanation.
+If you need any extra help, simply refer to this and you have it.
